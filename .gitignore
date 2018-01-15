@@ -21,3 +21,11 @@
 /yarn-error.log
 
 .byebug_history
+
+#Ignore file
+/config/database.yml
+/config/secrets.yml
+.framgia-ci-reports/*
+.framgia-ci-result.temp.yml
+.framgia_ci_integrate_steps.md
+npm-debug.log
