@@ -1,7 +1,8 @@
-<h1><%= t ".header1" %></h1>
+<% provide :title, t(".title") %>
+<h1><%= t "help.header1" %></h1>
 <p>
-  <%= t ".text1" %>
-  <%= link_to t(".link1"), "http://www.railstutorial.org/help" %>
-  <%= t ".text2" %>
-  <%= link_to t(".link2"), "http://www.railstutorial.org/book" %>.
+  <%= t "help.text1" %>
+  <%= link_to t("help.link1"), "http://www.railstutorial.org/help" %>
+  <%= t "help.text2" %>
+  <%= link_to t("help.link2"), "http://www.railstutorial.org/book" %>.
 </p>

@@ -1,0 +1,35 @@
+vi:
+  base_title: "Hướng dẫn Ruby on Rails Sample App"
+  layouts:
+    footer:
+      text1: "Bộ"
+      text2: "bởi"
+      link1: "Hướng dẫn Ruby on Rails"
+      link2: "Chi tiết"
+      link3: "Liên hệ"
+      link4: "Tin tức"
+    header:
+      link1: "sample app"
+      link2: "Trang chủ"
+      link3: "Trợ giúp"
+      link4: "Đăng nhập"
+  lang:
+    lang: "Ngôn ngữ"
+    en: "Tiếng Anh"
+    vi: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      header1: "Ứng dụng mẫu"
+      text1: "Đây là trang chủ của"
+      text2: "với ứng dụng mẫu."
+      link1: "Hướng dẫn Ruby on Rails"
+      link2: "Đăng ký ngay!"
+      alt1: "Logo của Rails"
+    help:
+      title: "Trợ giúp"
+      header1: "Trợ giúp"
+      text1: "Tìm sự trợ giúp ở"
+      text2: "Để tìm sự trợ giúp trong app mẫu này, xem cuốn"
+      link1: "Mục trợ giúp hướng dẫn Rails"
+      link2: "Hướng dẫn Ruby on Rails"
