@@ -1,33 +1,35 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    footer:
+      text1: "The"
+      text2: "by"
+      link1: "Ruby on Rails Tutorial"
+      link2: "About"
+      link3: "Contact"
+      link4: "News"
+    header:
+      link1: "sample app"
+      link2: "Home"
+      link3: "Help"
+      link4: "Log in"
+  lang:
+    lang: "Language"
+    en: "English"
+    vi: "Vietnamese"
+  static_pages:
+    home:
+      title: "Home"
+      header1: "Sample App"
+      text1: "This is the home page for the"
+      text2: "sample application."
+      link1: "Ruby on Rails Tutorial"
+      link2: "Sign up now!"
+      alt1: "Rails logo"
+  help:
+      title: "Help"
+      header1: "Help"
+      text1: "Get help on the Ruby on Rails Tutorial at the"
+      text2: "To get help on this sample app, see the"
+      link1: "Rails Tutorial help section"
+      link2: "Ruby on Rails Tutorial book"
