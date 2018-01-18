@@ -26,10 +26,27 @@ en:
       link1: "Ruby on Rails Tutorial"
       link2: "Sign up now!"
       alt1: "Rails logo"
-  help:
+    help:
       title: "Help"
       header1: "Help"
       text1: "Get help on the Ruby on Rails Tutorial at the"
       text2: "To get help on this sample app, see the"
       link1: "Rails Tutorial help section"
       link2: "Ruby on Rails Tutorial book"
+    about:
+      title: "About"
+      header1: "About"
+      text1: "The"
+      text2: "is a"
+      text3: "and"
+      text4: "to teach web development with"
+      text5: "This is the sample application for the tutorial."
+      link1: "Ruby on Rails Tutorial"
+      link2: "book"
+      link3: "screencast series"
+      link4: "Ruby on Rails"
+    contact:
+      title: "Contact"
+      header1: "Contact"
+      text1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      link1: "contact page"
