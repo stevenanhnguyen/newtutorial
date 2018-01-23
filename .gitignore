@@ -29,3 +29,8 @@
 .framgia-ci-result.temp.yml
 .framgia_ci_integrate_steps.md
 npm-debug.log
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+config/settings/*.yml
