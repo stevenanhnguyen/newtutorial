@@ -8,3 +8,5 @@ users:
   password:
     length:
       minimum: 6
+  age:
+    lwr_bound: 0
