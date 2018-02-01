@@ -1,51 +1,74 @@
 vi:
-  base_title: "Hướng dẫn Ruby on Rails Sample App"
-  layouts:
-    footer:
-      text1: "Bộ"
-      text2: "bởi"
-      link1: "Hướng dẫn Ruby on Rails"
-      link2: "Chi tiết"
-      link3: "Liên hệ"
-      link4: "Tin tức"
-    header:
-      link1: "sample app"
-      link2: "Trang chủ"
-      link3: "Trợ giúp"
-      link4: "Đăng nhập"
-  lang:
-    lang: "Ngôn ngữ"
-    en: "Tiếng Anh"
-    vi: "Tiếng Việt"
-  static_pages:
-    home:
-      title: "Trang chủ"
-      header1: "Ứng dụng mẫu"
-      text1: "Đây là trang chủ của"
-      text2: "với ứng dụng mẫu."
-      link1: "Hướng dẫn Ruby on Rails"
-      link2: "Đăng ký ngay!"
-      alt1: "Logo của Rails"
-    help:
-      title: "Trợ giúp"
-      header1: "Trợ giúp"
-      text1: "Tìm sự trợ giúp ở"
-      text2: "Để tìm sự trợ giúp trong app mẫu này, xem cuốn"
-      link1: "Mục trợ giúp hướng dẫn Rails"
-      link2: "Hướng dẫn Ruby on Rails"
-    about:
-      title: "Chi tiết"
-      header1: "Chi tiết"
-      text1: "Bộ"
-      text2: "bao gồm"
-      text3: "và"
-      text4: "để dạy cách phát triển web với"
-      text5: "Đây chính là ứng dụng mẫu dùng cho hướng dẫn."
-      link1: "Hướng dẫn Ruby on Rails"
-      link2: "sách"
-      link3: "bộ hình ảnh minh họa"
-    contact:
-      title: "Liên hệ"
-      header1: "Liên hệ"
-      text1: "Liên hệ tại"
-      link1: "trang này"
+  app:
+    base_title: "Ruby on Rails Tutorial Sample App"
+    message:
+      type:
+        success:
+          signin: "Chào mừng bạn đến với ứng dụng mẫu!"
+        warning:
+          user_not_found: "Không tìm thấy dữ liệu người dùng!"
+    error_explanation:
+      error_text: "Biểu mẫu chứa"
+      error: "lỗi"
+    layouts:
+      footer:
+        text1: "Bộ"
+        text2: "bởi"
+        link1: "Hướng dẫn Ruby on Rails"
+        link2: "Chi tiết"
+        link3: "Liên hệ"
+        link4: "Tin tức"
+      header:
+        logo: "sample app"
+        home: "Trang chủ"
+        help: "Trợ giúp"
+        login: "Đăng nhập"
+        signup: "Đăng kí"
+    lang:
+      lang: "Ngôn ngữ"
+      en: "English"
+      vi: "Tiếng Việt"
+      jp: "日本語"
+    static_pages:
+      home:
+        title: "Trang chủ"
+        header1: "Ứng dụng mẫu"
+        text1: "Đây là trang chủ của"
+        text2: "với ứng dụng mẫu."
+        link1: "Hướng dẫn Ruby on Rails"
+        link2: "Đăng ký ngay!"
+        alt1: "Logo của Rails"
+      about:
+        title: "Chi tiết"
+        header1: "Chi tiết"
+        text1: "Bộ"
+        text2: "bao gồm"
+        text3: "và"
+        text4: "để dạy cách phát triển web với"
+        text5: "Đây chính là ứng dụng mẫu dùng cho hướng dẫn."
+        link1: "Hướng dẫn Ruby on Rails"
+        link2: "sách"
+        link3: "bộ hình ảnh minh họa"
+      help:
+        title: "Trợ giúp"
+        header1: "Trợ giúp"
+        text1: "Tìm sự trợ giúp ở"
+        text2: "Để tìm sự trợ giúp trong app mẫu này, xem cuốn"
+        link1: "Mục trợ giúp hướng dẫn Rails"
+        link2: "Hướng dẫn Ruby on Rails"
+      contact:
+        title: "Liên hệ"
+        header1: "Liên hệ"
+        text1: "Liên hệ tại"
+        link1: "trang này"
+    users:
+      new:
+        title: "Đăng ký"
+        header1: "Đăng ký"
+        label_name: "Tên"
+        label_email: "Email"
+        label_gender: "Giới tính"
+        label_age: "Tuổi"
+        label_passwd: "Mật khẩu"
+        label_passwd_cf: "Xác nhận mật khẩu"
+        label_submit: "Tạo tài khoản của tôi"
