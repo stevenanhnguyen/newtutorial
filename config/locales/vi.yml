@@ -19,6 +19,15 @@ vi:
         link3: "Liên hệ"
         link4: "Tin tức"
       header:
+        link1: "Ứng dụng mẫu"
+        link2: "Trang Chủ"
+        link3: "Trợ giúp"
+        link4: "Đăng Nhập"
+        account: "Account"
+        users: "Người sử dụng"
+        profile: "Profile"
+        setting: "Setting"
+        log_out: "Log out"
         logo: "sample app"
         home: "Trang chủ"
         help: "Trợ giúp"
@@ -62,6 +71,9 @@ vi:
         text1: "Liên hệ tại"
         link1: "trang này"
     users:
+      sex:
+        male: "Male"
+        female: "Female"
       new:
         title: "Đăng ký"
         header1: "Đăng ký"
@@ -72,3 +84,10 @@ vi:
         label_passwd: "Mật khẩu"
         label_passwd_cf: "Xác nhận mật khẩu"
         label_submit: "Tạo tài khoản của tôi"
+    sessions:
+      new:
+        log_in: "Đăng nhập"
+        new?: "Tạo tài khoản?"
+        sign_up: "Đăng kí ngay!"
+        password: "Mật khẩu"
+        email: "Email"
