@@ -19,6 +19,16 @@ jp:
         link3: "接触"
         link4: "ニュース"
       header:
+        link1: "sample app"
+        link2: "Home"
+        link3: "Help"
+        link4: "ログイン
+"
+        account: "アカウント"
+        users: "ユーザー"
+        profile: "プロフィール"
+        setting: "設定"
+        log_out: "ログアウト"
         logo: "サンプルアプリ  "
         home: "自宅"
         help: "助けて"
@@ -31,7 +41,7 @@ jp:
       jp: "日本語"
     static_pages:
       home:
-        title: "Home"
+        title: "自宅"
         header1: "サンプルアプリケーション"
         text1: "これは"
         text2: "サンプルアプリケーション。"
@@ -63,13 +73,23 @@ jp:
         text1: "Contact the Ruby on Rails Tutorial about the sample app at the"
         link1: "contact page"
     users:
+      sex:
+        male: "Male"
+        female: "Female"
       new:
         title: "サインアップ"
         header1: "サインアップ"
         label_name: "名"
         label_email: "電子メイル"
-        label_gender: "Gender"
-        label_age: "Age"
+        label_gender: "性別"
+        label_age: "年齢"
         label_passwd: "パスワード"
         label_passwd_cf: "確認パスワード"
         label_submit: "アカウントを作る"
+    sessions:
+      new:
+        log_in: "ログイン"
+        new?: "新しいユーザー?"
+        sign_up: "今すぐ申し込む!"
+        password: "パスワード"
+        email: "電子メイル"

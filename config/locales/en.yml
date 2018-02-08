@@ -7,6 +7,8 @@ en:
           signin: "Welcome to the Sample App!"
         warning:
           user_not_found: "User profile not found!"
+        danger:
+          invalid_login: "Invalid email/password combination"
     error_explanation:
       error_text: "The form contains"
       error: "error"
@@ -19,6 +21,15 @@ en:
         link3: "Contact"
         link4: "News"
       header:
+        link1: "sample app"
+        link2: "Home"
+        link3: "Help"
+        link4: "Log in"
+        account: "Account"
+        users: "Users"
+        profile: "Profile"
+        setting: "Setting"
+        log_out: "Log out"
         logo: "sample app"
         home: "Home"
         help: "Help"
@@ -63,6 +74,9 @@ en:
         text1: "Contact the Ruby on Rails Tutorial about the sample app at the"
         link1: "contact page"
     users:
+      sex:
+        male: "Male"
+        female: "Female"
       new:
         title: "Sign up"
         header1: "Sign up"
@@ -73,3 +87,10 @@ en:
         label_passwd: "Password"
         label_passwd_cf: "Confirmation"
         label_submit: "Create my account"
+    sessions:
+      new:
+        log_in: "Log in"
+        new?: "New user?"
+        sign_up: "Sign up now!"
+        password: "Password"
+        email: "Email"
