@@ -1,0 +1,33 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to t("app.layouts.header.logo"), root_path, class: :logo %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("app.layouts.header.home"), root_path %></li>
+        <li><%= link_to t("app.layouts.header.help"), help_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("app.layouts.header.users"), "#" %></li>
+          <li class="dropdown">
+            <%= link_to("#", class: "dropdown-toggle", data: {toggle: "dropdown"}) do %>
+              <%= t("app.layouts.header.account") %>
+              <%= content_tag :b, "", class: "caret" %>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("app.layouts.header.profile"), current_user %></li>
+              <li><%= link_to t("app.layouts.header.setting"), "#" %></li>
+              <li class="divider"> </li>
+              <li>
+                <%= link_to t("app.layouts.header.log_out"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("app.layouts.header.link4"), login_path %></li>
+        <% end %>
+        <li><%= link_to "English", locale:"en" %></li>
+        <li><%= link_to "Tiếng Việt", locale:"vi" %></li>
+        <li><%= link_to "日本語", locale:"jp" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
