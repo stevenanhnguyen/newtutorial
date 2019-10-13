@@ -1,40 +1,39 @@
-en:
+jp:
   app:
     base_title: "Ruby on Rails Tutorial Sample App"
     message:
       type:
         success:
-          signin: "Welcome to the Sample App!"
+          signin: "サンプルアプリケーションへようこそ!"
         warning:
           user_not_found: "User profile not found!"
-        danger:
-          invalid_login: "Invalid email/password combination"
     error_explanation:
       error_text: "The form contains"
       error: "error"
     layouts:
       footer:
-        text1: "The"
-        text2: "by"
+        text1: "その"
+        text2: "によって"
         link1: "Ruby on Rails Tutorial"
-        link2: "About"
-        link3: "Contact"
-        link4: "News"
+        link2: "約"
+        link3: "接触"
+        link4: "ニュース"
       header:
         link1: "sample app"
         link2: "Home"
         link3: "Help"
-        link4: "Log in"
-        account: "Account"
-        users: "Users"
-        profile: "Profile"
-        setting: "Setting"
-        log_out: "Log out"
-        logo: "sample app"
-        home: "Home"
-        help: "Help"
-        login: "Login"
-        signup: "Sign up"
+        link4: "ログイン
+"
+        account: "アカウント"
+        users: "ユーザー"
+        profile: "プロフィール"
+        setting: "設定"
+        log_out: "ログアウト"
+        logo: "サンプルアプリ  "
+        home: "自宅"
+        help: "助けて"
+        login: "ログイン"
+        signup: "サインアップ"
     lang:
       lang: "Language"
       en: "English"
@@ -42,12 +41,12 @@ en:
       jp: "日本語"
     static_pages:
       home:
-        title: "Home"
-        header1: "Sample App"
-        text1: "This is the home page for the"
-        text2: "sample application."
+        title: "自宅"
+        header1: "サンプルアプリケーション"
+        text1: "これは"
+        text2: "サンプルアプリケーション。"
         link1: "Ruby on Rails Tutorial"
-        link2: "Sign up now!"
+        link2: "サインアップ!"
         alt1: "Rails logo"
       about:
         title: "About"
@@ -78,19 +77,19 @@ en:
         male: "Male"
         female: "Female"
       new:
-        title: "Sign up"
-        header1: "Sign up"
-        label_name: "Name"
-        label_email: "Email"
-        label_gender: "Gender"
-        label_age: "Age"
-        label_passwd: "Password"
-        label_passwd_cf: "Confirmation"
-        label_submit: "Create my account"
+        title: "サインアップ"
+        header1: "サインアップ"
+        label_name: "名"
+        label_email: "電子メイル"
+        label_gender: "性別"
+        label_age: "年齢"
+        label_passwd: "パスワード"
+        label_passwd_cf: "確認パスワード"
+        label_submit: "アカウントを作る"
     sessions:
       new:
-        log_in: "Log in"
-        new?: "New user?"
-        sign_up: "Sign up now!"
-        password: "Password"
-        email: "Email"
+        log_in: "ログイン"
+        new?: "新しいユーザー?"
+        sign_up: "今すぐ申し込む!"
+        password: "パスワード"
+        email: "電子メイル"
