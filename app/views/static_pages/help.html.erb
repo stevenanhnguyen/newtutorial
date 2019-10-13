@@ -1,7 +1,8 @@
-<h1><%= t ".header1" %></h1>
+<% provide :title, t(".title") %>
+<h1><%= t "app.static_pages.help.header1" %></h1>
 <p>
-  <%= t ".text1" %>
-  <%= link_to t(".link1"), "http://www.railstutorial.org/help" %>
-  <%= t ".text2" %>
-  <%= link_to t(".link2"), "http://www.railstutorial.org/book" %>.
+  <%= t "app.static_pages.help.text1" %>
+  <%= link_to t("app.static_pages.help.link1"), "http://www.railstutorial.org/help" %>
+  <%= t "app.static_pages.help.text2" %>
+  <%= link_to t("app.static_pages.help.link2"), "http://www.railstutorial.org/book" %>.
 </p>
